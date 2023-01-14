@@ -1,0 +1,38 @@
+.allSelect {
+    margin: 5px;
+}
+
+.textOutPut {
+    width: 390px;
+    min-height: 25px;
+    border: 1px solid black;
+}
+
+.buttonAll {
+    display: flex;
+}
+
+.buttonCode:hover,
+.buttonUnCode:hover {
+    cursor: pointer;    
+}
+
+.buttonClenner {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonCode,
+.buttonUnCode,
+.buttonClenner {
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+}
+
+.buttonCode:hover,
+.buttonUnCode:hover,
+.buttonClenner:hover {
+    background-color: chartreuse;
+}
